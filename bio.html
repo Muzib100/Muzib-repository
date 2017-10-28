@@ -6,6 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <title>My Bio</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <style>
 body { background: powderblue;
@@ -15,27 +16,65 @@ body { background: powderblue;
   h1 { background: black;
     color: white; 
     text-align: center;
+    font-size: 28px;
+}
+
+img {
+  float:left;
+  font-size:15pt;
+  width:200px;
+  margin-top:2.0em;
+  margin-left:1%;
+  margin-right:2%;
+  margin-bottom:0.5em;
+}
+.mid{
+  float:left;
+  font-size:28px;
+  width:40%;
+  margin-left:1%;
+  margin-right:2%;
+  margin-bottom:0.5em;
+}
+.rt{
+  float:left;
+  font-size:15px;
+  width:30%;
+  line-height: 1.5em;
+  margin-left:1%;
+  margin-right:1%;
+  margin-bottom:0.5em;
+}
+u {
+  text-decoration: underline;
+  color:#d21034;
 }
 </style>
 <body>
 
   <!-- Headline -->
   <h1>Student Bio</h1>
-  <h2> Muzibul Khan</h2>
+  <h2 align="center">Muzibul Khan</h2>
 
-  <!-- Image -->
-  <img src="http://en.spongepedia.org/images/thumb/3/33/Spongebob!!!.jpg/180px-Spongebob!!!.jpg" alt="Spongebob!" />
-  <br>
+  
+<img src="http://en.spongepedia.org/images/thumb/3/33/Spongebob!!!.jpg/180px-Spongebob!!!.jpg" alt="Spongebob!"> 
 
-  <p>I am a new student of the conding bootcamp. I joined the course to learn about full stack coding. I hope to create webpage</p>
-  <p>As a new student of this course, I feel a lot of pressure to grasp new concepts and be familiar with</p>
 
-  <h2>Contact Info</h2>
+<div class = "mid">
+  <p>I am a new student at the coding bootcamp. I joined the course to learn about full-stack coding. I hope to learn how to create webpage and manage coding for the server side as well.This will require mastering front-end and back-end coding techniques.</p>
+  <p>As a new student of this course, I find there is so much material to cover in such a short time that is kind of scary. I feel a lot of pressure to grasp new concepts and become familiar with</p>
+  <p>However daunting this task is I am determined to give my best and hopefully with the help from the teaching staff, will be able to overcome the challenges.</p>
+</div>
+
+<div class = "rt">
+  <h2 align= "left">Contact Info</h2>
 <ul>
 
-  <li><strong>Email: <u>muzib100@gmail.com </u></stong></li>
+  <li><strong>Email: <u> muzib100@gmail.com </u></stong></li>
   <li><strong>Github:<u>muzib-repository</u></strong></li>
   <li><strong>Portfolio:<u>coming soon</u></strong></li>
+</ul>
+</div>
 
   </body>
   </html>
